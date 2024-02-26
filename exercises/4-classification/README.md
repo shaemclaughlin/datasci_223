@@ -1,3 +1,5 @@
+The script for this assignment can be found here: https://github.com/shaemclaughlin/datasci_223/blob/main/exercises/4-classification/homework4.5.ipynb 
+
 # Classifying Letters 'a' to 'g'
 
 This script builds a machine learning model which aims to classify images of handwritten letters from 'a' to 'g'. These images were sourced from the EMNIST dataset and processed so that each image is a 28x28 array of pixel intensities.
@@ -80,7 +82,7 @@ print(metrics_dict['a_to_g']['confusion_matrix'])
 ```
 ## Observations
 
-From the classification report, all classes have a high recall score which is promising. However, the 'c' class demonstrates lower precision indicating this class is often misclassified.
+From the classification report, all classes have a high recall score which is promising. However, the 'c' class demonstrates lower precision indicating this class is often misclassified. I was able to improve the performance of 'c' by increasing the size of the dataset.
 
 # Classifying Letters as Uppercase/Lowercase
 
